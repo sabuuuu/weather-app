@@ -1,0 +1,100 @@
+@font-face {
+    font-family: fbold;
+    src: url(font/fbold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: fregular;
+    src: url(font/fregular.ttf);
+    font-weight: 400;
+}
+
+header{
+  background-color: rgba(158,16,26,255);
+  color: white;
+  height: 15vh;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+    background-color:#191818;
+    font-family: fregular;
+  font-weight: 900;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+form {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 30vw;
+}
+
+label,
+input,
+button {
+  padding-left: 10px;
+  margin: 10px;
+  height: 45px;
+  width: 100%;
+  font-family: fbold;
+  border-radius: 4px;
+  border: 0;
+}
+
+input {
+  background-color: rgba(30,30,30,255);
+  color: white;
+  border-bottom: 2px solid rgba(158,16,26,255);
+}
+
+button {
+  background-color: rgba(158,16,26,255);
+  border-bottom: 2px solid rgba(30,30,30,255);
+  color: white;
+}
+
+button:hover{
+  background-color: rgba(30,30,30,255);
+}
+
+.display-div,
+.display-giphy {
+
+  display: grid;
+  align-items: center;
+  background-color: rgba(158,16,26,255);
+  color: white;
+  height: 50vh;
+  width: 30vw;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+p {
+  margin: 15px;
+  font-weight: 900;
+}
+
+.display-giphy,
+img {
+  border-radius: 10px;
+  background-color: transparent;
+  height: 50vh;
+  width: 20vw;
+}
